@@ -1,8 +1,8 @@
-# Notulensi — Alur Kerja `tugasakhirgpt.py`
+# Notulensi — Alur Kerja `index.py`
 
 | Keterangan  | Isi                                                                |
 | ----------- | ------------------------------------------------------------------ |
-| **Program** | `tugasakhirgpt.py`                                                 |
+| **Program** | `index.py`                                                         |
 | **Jenis**   | Aplikasi pemesanan makanan dan minuman berbasis console            |
 | **Bahasa**  | Python                                                             |
 | **Tanggal** | 26 November 2026                                                   |
@@ -246,7 +246,7 @@ Input yang tidak sesuai memicu perulangan `while True` untuk menanyakan kembali 
 
 ```bash
 cd "D:\Document\Algoritma & Dasar Pemrograman\project"
-python tugasakhirgpt.py
+python index.py
 ```
 
 Contoh alur singkat:
@@ -271,4 +271,4 @@ y  -> konfirmasi pesanan
 - Data menu, keranjang, dan stok tersimpan di memori. Menutup program mengembalikan data ke kondisi awal.
 - Nomor struk bersifat acak sehingga memungkinkan angka yang sama pada dua transaksi. Jika ingin nomor unik, nomor yang sudah dipakai dapat disimpan dalam list lalu dicek memakai operator `in`.
 - Tanggal dan jam mengikuti waktu lokal komputer yang menjalankan program.
-- Program telah diperiksa dengan `python -m py_compile tugasakhirgpt.py`, dan alur pesan → checkout → struk berjalan tanpa error.
+- Program telah diperiksa dengan `python -m py_compile index.py`, dan alur pesan → checkout → struk berjalan tanpa error.
